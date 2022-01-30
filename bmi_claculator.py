@@ -11,9 +11,9 @@ print ("This is a BMI calculator")
 # kg and cm created as float so I dont have to convert string to float in the actual bmi calculation step
 kg = float(input("Please enter your weight in kilograms:"))
 cm = float(input("Enter height(cm):"))
-# formatted float to 1f precision to print single decimal digit 
+# formatted float to 1f precision to print double decimal digit 
 bmi = kg / (cm / 100)**2
-print ("Your BMI index is:  {:.1f}" .format (bmi))
+print ("Your BMI index is:  {:.2f}" .format (bmi))
 
 # Bonus code for displaying BMI category based on the results
 if bmi < 18.5:
