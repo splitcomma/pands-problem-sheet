@@ -7,7 +7,7 @@
 
 
 sentence = input("please enter a sentence: ")
-stringLength=len(sentence)
+stringLength = len(sentence)
 
 reversedSentence = sentence [stringLength::-1]
 everySecond = reversedSentence[::2]
