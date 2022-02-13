@@ -9,11 +9,13 @@
 # Please enter a positive integer: 10
 # 10 5 16 8 4 2 1
 
-positiveInteger = int (input ("Please enter a positive integer: "))
-even = positiveInteger % 2 == 0
-
-if even :
-    print(int(positiveInteger/2))
-else :
-    print(int((positiveInteger*3)+1))
+posInteger = int(input ("Please enter a positive integer: "))
+while posInteger != 1 :
+    
+    if (posInteger % 2) == 0 :
+       posInteger = int(posInteger/2)
+    
+    else :
+        posInteger = int(posInteger*3+1)
+    print (posInteger)
 
