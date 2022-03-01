@@ -10,8 +10,6 @@
 
 #Newton's square root equation:  √ N ≈ ½(N/A + A)
 
-from operator import ne
-
 
 print("enter a loating point number")
 n = float(input())
