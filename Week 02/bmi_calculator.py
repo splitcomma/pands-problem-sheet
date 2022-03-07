@@ -24,3 +24,10 @@ elif bmi <= 29.9:
     print("You are overweight, what about some veggies instead of the deep fried junk food.")
 elif bmi >= 30.0:
     print("You are obese, consider moving more and eating less.")
+
+# Used references:
+# https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/
+# https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/english_bmi_calculator/bmi_calculator.html
+# https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
+# https://stackoverflow.com/questions/3400965/getting-only-1-decimal-place
+# https://stackoverflow.com/questions/66451180/i-want-to-know-the-difference-between-0-and-1f-in-format-method

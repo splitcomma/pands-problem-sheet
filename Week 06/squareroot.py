@@ -1,5 +1,5 @@
 #Week 6 task
-# Esti,ating Square Root 
+# Estimating Square Root 
 # Author: Andras Csullog
 
 #create a function called <tt>sqrt</tt>
@@ -21,3 +21,7 @@ for x in range(6):
 
 print ("squareroot is:  {:.1f}" .format (a))
 
+
+# Used references:
+# https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,to%20be%20N%20or%201.
+# https://www.programiz.com/python-programming/for-loop
