@@ -10,6 +10,7 @@
 # 10 5 16 8 4 2 1
 
 posInteger = int(input ("Please enter a positive integer: "))
+print(posInteger, end=" ")
 while posInteger != 1 :
     
     if (posInteger % 2) == 0 :
@@ -17,5 +18,5 @@ while posInteger != 1 :
     
     else :
         posInteger = int(posInteger*3+1)
-    print (posInteger)
+    print (posInteger, end=" ")
 
