@@ -1,6 +1,6 @@
 # Pands-problem-sheet includes tasks:
 
-##Week 02 - BMI Calculator
+## Week 02 - BMI Calculator
 
 The inputs are the person's height in centimetres and weight in kilograms.
 The output  their BMI (You may need to look up how this is calculated)
@@ -12,14 +12,14 @@ Enter height(cm): 180
 The BMI is (kg/m2) 20.06.
 ```
 
-##Week 03 - A program that asks a user to input a string and outputs every second letter in reverse order.
+## Week 03 - A program that asks a user to input a string and outputs every second letter in reverse order.
 
 ```
 $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
 .o zletrv pu o wr cu h
 ```
-##Week 04 - A program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+## Week 04 - A program that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 
@@ -45,7 +45,7 @@ An example of running it on a Saturday is as follows:
 $ python weekday.py
 It is the weekend, yay!
 ```
-##Week06 - A program that takes a positive floating-point number as input and outputs an approximation of its square root.
+## Week06 - A program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
 ```
 $ python squareroot.py
@@ -60,8 +60,8 @@ The program should take the filename from an argument on the command line.
 $ python es.py moby-dick.txt
 59646
 ```
-##Week08 -  a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+## Week08 -  a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
-Used references for formatting readme:
+### Used references for formatting readme:
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
