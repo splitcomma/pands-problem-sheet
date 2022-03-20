@@ -11,7 +11,7 @@
 #Newton's square root equation:  √ N ≈ ½(N/A + A)
 
 
-print("Enter a floating point number")
+print("Enter a floating point number:")
 
 def sqrt():
     n = float(input())
@@ -20,8 +20,7 @@ def sqrt():
         a = ((n / nestimate) + nestimate)/2
         nestimate = a
 
-
-    print ("squareroot is:  {:.1f}" .format (a))
+    print ("The squareroot is:  {:.1f}" .format (a))
     
 sqrt()
 

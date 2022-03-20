@@ -6,7 +6,7 @@
 # Output: .o zletrv pu o wr cu h
 
 
-sentence = input("please enter a sentence: ")
+sentence = input("Please enter a sentence: ")
 stringLength = len(sentence)
 
 reversedSentence = sentence [stringLength::-2]
