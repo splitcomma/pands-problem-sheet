@@ -1,4 +1,4 @@
-# Pands-problem-sheet includes tasks:
+# Tasks inlcluded in Pands-problem-sheet:
 
 ## Week 02 - BMI Calculator
 
