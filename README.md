@@ -53,7 +53,7 @@ Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
 ```
 
-##Week 07 - a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
+## Week 07 - a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
 The program should take the filename from an argument on the command line. 
 
 ```
