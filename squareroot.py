@@ -11,16 +11,19 @@
 #Newton's square root equation:  √ N ≈ ½(N/A + A)
 
 
-print("enter a loating point number")
-n = float(input())
-nestimate = n / 3
-for x in range(6):
-    a = ((n / nestimate) + nestimate)/2
-    nestimate = a
+print("Enter a floating point number")
+
+def sqrt():
+    n = float(input())
+    nestimate = n / 3
+    for x in range(6):
+        a = ((n / nestimate) + nestimate)/2
+        nestimate = a
 
 
-print ("squareroot is:  {:.1f}" .format (a))
-
+    print ("squareroot is:  {:.1f}" .format (a))
+    
+sqrt()
 
 # Used references:
 # https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,to%20be%20N%20or%201.
