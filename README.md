@@ -76,8 +76,10 @@ A program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in t
 ```
 $ python plottask.py 
 ```
+Output:
 
 ![plot](plot.PNG)
+
 
 
 ### Used references for formatting readme:
