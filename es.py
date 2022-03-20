@@ -6,7 +6,7 @@
 # The program should take the filename from an argument on the command line.
 
 
-file = open('Week_07\mobydick.txt', 'r')
+file = open('mobydick.txt', 'r')
 
 mobiDick= file.read()
 
