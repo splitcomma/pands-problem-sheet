@@ -16,7 +16,6 @@ letter2 = 'E'
 letterCount = mobiDick.count(letter1) + mobiDick.count(letter2)
 print(letterCount)
 
+ # Used references:
+
  
-
-
-# Used references:

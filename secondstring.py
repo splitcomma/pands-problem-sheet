@@ -12,3 +12,7 @@ stringLength = len(sentence)
 reversedSentence = sentence [stringLength::-1]
 everySecond = reversedSentence[::2]
 print("Your sentence in reversed order and only every second charater:" + everySecond)
+
+# Used refenrences:
+# https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
+# https://stackoverflow.com/questions/46503865/getting-every-nth-character-in-the-string-in-python
