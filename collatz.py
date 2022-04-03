@@ -10,16 +10,19 @@
 # 10 5 16 8 4 2 1
 
 posInteger = int(input ("Please enter a positive integer: "))
+#Print user input as first number in vertical list:
 print(posInteger, end=" ")
+# Execute in while loop until not equal to 1:
 while posInteger != 1 :
-    
-    if (posInteger % 2) == 0 :
+    #If the posInteger number is even, then divide by 2
+    if (posInteger % 2) == 0 : 
        posInteger = int(posInteger/2)
-    
+    #Otherwise multiple by 3 and add 1:
     else :
         posInteger = int(posInteger*3+1)
-    print (posInteger, end=" ")
+    #Results to be printed vertically:    
+    print(posInteger, end=" ")
 
 # Used refenrences:
 # https://www.datacamp.com/community/tutorials/loops-python-tutorial?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=332602034364&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9063089&gclid=CjwKCAiA9aKQBhBREiwAyGP5laWVd5eYdz5_VaUe6QEjpvMABW3Dn6WC1D6To2iRG-1yJic3vEMYWBoCWmEQAvD_BwE
-# https://www.codegrepper.com/code-examples/python/how+to+print+vertical+line+in+python
+# https://www.geeksforgeeks.org/python-printing-list-vertically/
