@@ -19,8 +19,6 @@ def sqrt(num, iter = 10):
     for x in range(iter):
         num = 0.5*(num + (a / num))
     return num
-
- 
     
 userNumber = float(input("Please Enter a Number: "))
 print("The Square Root of: ", userNumber, " is {:.1f}".format(sqrt(userNumber)))
