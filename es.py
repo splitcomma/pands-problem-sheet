@@ -5,17 +5,23 @@
 # It should read in a text file and outputs the number of e'
 # The program should take the filename from an argument on the command line.
 
+# Importing this sys library for using it to read the argument from the command line after running the python file
 import sys
 
+# Defning the first argument as a file using the argv builtin method
 file = sys.argv[1]
 
+# Reading in the file with the builtin open method line by line:
 with open(file) as f:
     lines = f.read()
 
+# Defning small and cpital e letters
 letter1 = 'e'
 letter2 = 'E'
 
+# Count and add e,E letters from each lines:
 letterCount = lines.count(letter1) + lines.count(letter2)
+# Print the sum  of e and E letters
 print(letterCount)
 
 
