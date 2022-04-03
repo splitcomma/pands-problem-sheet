@@ -11,18 +11,19 @@
 #Newton's square root equation:  √ N ≈ ½(N/A + A)
 
 
-print("Enter a floating point number:")
+#print(input("Enter a floating point number:"))
 
-def sqrt():
-    n = float(input())
-    nestimate = n / 3
-    for x in range(6):
-        a = ((n / nestimate) + nestimate)/2
-        nestimate = a
-
-    print ("The squareroot is:  {:.1f}" .format (a))
+def sqrt(num, iter = 10):
+    a = float (num)
     
-sqrt()
+    for x in range(iter):
+        num = 0.5*(num + (a / num))
+    return num
+
+ 
+    
+userNumber = float(input("Please Enter a Number: "))
+print("The Square Root of: ", userNumber, " is {:.1f}".format(sqrt(userNumber)))
 
 # Used references:
 # https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,to%20be%20N%20or%201.
